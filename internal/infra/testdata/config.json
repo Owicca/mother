@@ -1,0 +1,21 @@
+{
+  "HttpHost": "0.0.0.0",
+  "HttpPort": "5900",
+  "DbHost": "localhost",
+  "DbPort": "3306",
+  "DbName": "chan",
+  "DbUser": "root",
+  "DbPassword": "root",
+  "Logger": {
+    "level": "debug",
+    "encoding": "json",
+    "outputPaths": ["stdout", "./log/log.log"],
+    "errorOutputPaths": ["stderr", "./log/error.log"],
+    "encoderConfig": {
+      "messageKey": "message",
+      "levelKey": "level",
+      "levelEncoder": "lowercase"
+    }
+  },
+  "StoreKey": "root"
+}

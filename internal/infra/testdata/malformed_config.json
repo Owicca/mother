@@ -1,0 +1,8 @@
+{
+  "HttpHost": "0.0.0.0",
+  "HttpPort": "5900",
+  "DbHost": "localhost",
+  "DbPort": "3306",
+  "DbName": "chan",
+  "DbUser": "root",
+  "DbPassword": "root",
